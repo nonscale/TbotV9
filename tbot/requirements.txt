@@ -1,0 +1,16 @@
+# requirements.txt
+fastapi
+uvicorn
+polars
+python-dotenv
+sqlalchemy[asyncio]
+aiosqlite
+
+# Testing
+pytest
+httpx
+pytest-asyncio
+
+# Brokers
+pyupbit
+pandas
