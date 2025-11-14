@@ -1,0 +1,17 @@
+INFO:     Will watch for changes in these directories: ['/app']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [32464] using StatReload
+INFO:     Started server process [32475]
+INFO:     Waiting for application startup.
+Application startup...
+2025-11-14 22:51:55,474 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-14 22:51:55,475 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("strategies")
+2025-11-14 22:51:55,475 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-11-14 22:51:55,497 INFO sqlalchemy.engine.Engine COMMIT
+2025-11-14 22:51:55,509 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-14 22:51:55,520 INFO sqlalchemy.engine.Engine SELECT strategies.id, strategies.name, strategies.description, strategies.broker, strategies.market, strategies.scan_rules, strategies.is_active, strategies.cron_schedule, strategies.created_at, strategies.updated_at
+FROM strategies
+ LIMIT ? OFFSET ?
+2025-11-14 22:51:55,521 INFO sqlalchemy.engine.Engine [generated in 0.00025s] (1000, 0)
+2025-11-14 22:51:55,523 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     Application startup complete.
