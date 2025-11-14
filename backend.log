@@ -1,0 +1,10 @@
+INFO:     Will watch for changes in these directories: ['/app']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [27227] using StatReload
+INFO:     Started server process [27238]
+INFO:     Waiting for application startup.
+2025-11-14 21:56:02,545 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-11-14 21:56:02,546 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("strategies")
+2025-11-14 21:56:02,546 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-11-14 21:56:02,573 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     Application startup complete.
