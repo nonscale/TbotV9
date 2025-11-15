@@ -1,5 +1,2 @@
-# requirements.txt
 fastapi
-uvicorn
-polars
-python-dotenv
+uvicorn[standard]
