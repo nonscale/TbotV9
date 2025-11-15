@@ -1,0 +1,12 @@
+
+> tbot-frontend@0.0.1 dev
+> vite
+
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+Port 5175 is in use, trying another one...
+
+  VITE v4.5.14  ready in 979 ms
+
+  ➜  Local:   http://localhost:5176/
+  ➜  Network: use --host to expose
