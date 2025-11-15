@@ -1,0 +1,17 @@
+# Environments
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+/venv/
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
